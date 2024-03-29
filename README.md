@@ -1,6 +1,6 @@
 ## WebScraping and Predicting
 
-This project involves compiling a large dataset of all the ads on Bazaraki.com (a popular platform among Cypriots where ads are published). On finishing this compilation, the script will allow you to choose your own parameters using StreamLit form and will allow you to predict the price.
+This project involves compiling a large dataset of all the ads on Bazaraki.com (a popular platform among Cypriots where ads are published). On finishing this compilation, the script will allow you to choose your own parameters using StreamLit form and will allow you to predict the price using **GradientBoostingRegressor**. The model is already fine-tuned to the most suitable parameters (namely: **(n_estimators=400, learning_rate=0.1, max_depth=50)**) and ready for usage. 
 
 ## Features
 - **WebScraping / Dataset Formulation:** Get all the data on Cyprus housing rental in one place
