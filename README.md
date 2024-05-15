@@ -27,7 +27,7 @@ Also, because of the contect of some websites (specifically - Dom.Cy), the data 
 pip install selenium
 pip install webdriver-manager
 ```
-Selenium requires ChromeWebDriver. It should be placed in the following directory: **C:/Program Files/Google/chromedriver-win64/chromedriver.exe**
+In turn, Selenium requires ChromeWebDriver. It should be placed in the following directory: **C:/Program Files/Google/chromedriver-win64/chromedriver.exe**
 The latest version of ChromeWebDriver can be downloaded here: **https://googlechromelabs.github.io/chrome-for-testing/**
 The latest version of Chrome can be downloaded here: **https://www.google.ru/chrome/**
 
