@@ -22,15 +22,10 @@ pip install pandas
 pip install regex
 ```
 
-Also, because of the contect of some websites (specifically - Dom.Cy), the data could not have been scraped with just Requests (due to the need to press the "Load More" button every time). For these purposes, Selenium is used to get all the data, as well as automatically pressing the button once it appears. Please be sure to install these:
+Also, because of the contect of some websites (specifically - Dom.Cy), the data could not have been scraped with just Requests (due to the need to press the "Load More" button every time). For these purposes, Selenium is used to get all the data, as well as to automatically press the button once it appears. Please be sure to install these:
 ```shell
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.common.by import By
-import time
-from selenium.common.exceptions import TimeoutException
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.support.wait import WebDriverWait
+pip install selenium
+pip install webdriver-manager
 ```
 Selenium requires ChromeWebDriver. It should be placed in the following directory: **C:/Program Files/Google/chromedriver-win64/chromedriver.exe**
 The latest version of ChromeWebDriver can be downloaded here: **https://googlechromelabs.github.io/chrome-for-testing/**
